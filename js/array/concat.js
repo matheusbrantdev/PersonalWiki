@@ -13,7 +13,5 @@ const hellowolrd = string1.concat(string2)
 console.log(hellowolrd)
 // output: hellowolrd
 
-const array = ["a", "b", "c"];
 
-const iterator = array.entries();
 
