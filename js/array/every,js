@@ -1,0 +1,25 @@
+const usersPayment = [
+    {
+        paymentId: 1,
+        paymentDone: true
+    },
+    {
+        paymentId: 2,
+        paymentDone: true
+    },
+
+    {
+        paymentId: 3,
+        paymentDone: false
+    }
+]
+
+const everyPaymentShouldBeDone= (paymentData) => {
+    console.log({ paymentData})
+    return paymentData.paymentDone
+}
+
+const everyPaymentIsDone = usersPayment.every(everyPaymentShouldBeDone)
+
+console.log(everyPaymentIsDone)
+// output false
