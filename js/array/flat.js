@@ -13,3 +13,4 @@ console.log(array3.flat(Infinity))
 // output [1, 2, 1, 2,52, 2, 2]
 
 // flat deep.
+
