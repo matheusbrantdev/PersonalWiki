@@ -49,11 +49,11 @@ const sortBy = (array, type = 'asc', column='createdAt') => {
 }
 
 
-console.log(sortBy(array, 'asc', 'createdAt'));
-console.log(sortBy(array, 'desc', 'createdAt'));
+// console.log(sortBy(array, 'asc', 'createdAt'));
+// console.log(sortBy(array, 'desc', 'createdAt'));
 
-console.log(sortBy(array, 'asc', 'name'));
-console.log(sortBy(array, 'desc', 'name'));
+// console.log(sortBy(array, 'asc', 'name'));
+// console.log(sortBy(array, 'desc', 'name'));
 
-console.log(sortBy(array, 'asc', 'bankAccount'));
-console.log(sortBy(array, 'desc', 'bankAccount'));
+// console.log(sortBy(array, 'asc', 'bankAccount'));
+// console.log(sortBy(array, 'desc', 'bankAccount'));
